@@ -9,6 +9,3 @@ doc/
 .project
 .DS_Store
 Gemfile*
-/public/fasta/
-/public/image/tmp/
-/config/
