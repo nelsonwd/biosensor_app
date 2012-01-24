@@ -1,239 +1,205 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Ruby on Rails: Welcome aboard</title>
-    <style type="text/css" media="screen">
-      body {
-        margin: 0;
-        margin-bottom: 25px;
-        padding: 0;
-        background-color: #f0f0f0;
-        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
-        font-size: 13px;
-        color: #333;
-      }
+<head>
+<title>Biosensor</title>
+<link REL="stylesheet" href="./stylesheets/style.css" type="text/css">
+</head>
+<body topmargin=5 bgcolor=white onLoad="if(document.getElementById('SearchFor')) document.getElementById('ctlSearchFor').focus();">
 
-      h1 {
-        font-size: 28px;
-        color: #000;
-      }
+    <P><CENTER>
+    <TABLE  BORDER = "0"
+           CELLSPACING = "0" CELLPADDING = "2">
 
-      a  {color: #03c}
-      a:hover {
-        background-color: #03c;
-        color: white;
-        text-decoration: none;
-      }
+    <TR>
+    <TD VALIGN = "BOTTOM" ALIGN = "LEFT">
+    <A HREF=""><IMG SRC = "./images/logo.png"
+         WIDTH = "584"
+         HEIGHT = "104"
+         BORDER = "0" ALT = "Biosensors"></A></TD>
+    <TD VALIGN = "TOP" ALIGN = "LEFT">
+      <A HREF = "_blank" TARGET=_blank>Log in</A><br>
+      <A HREF = "_blank" TARGET=_blank>Help</A></TD>
+    </TR>
+    <TR>
+      <TD COLSPAN=2>
 
 
-      #page {
-        background-color: #f0f0f0;
-        width: 750px;
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
-      }
+<TABLE WIDTH=100% CELLPADDING=4 CELLSPACING=0 BORDER=0 align=center style="border: solid; border-width: 1px; border-color: #C0C0C0;">
+<tr>
+<td align=center valign=middle class=shade>
+<b>Search substrate: </b> 
+</td>
+<!--<td>
+<select id="ctlSearchField">
+<option value="">Any field</option>
+<option value="record_id" >Name</option>
+<option value="ex_code_name" >Substrate</option>
+<option value="code_name" >Type</option>
+<option value="approved" >Host System</option>
+<option value="full_name" >Analysis Technique</option>
+<option value="full_name" >Single cell or tissue</option>
+<option value="mono_mass" >PI</option>
+<option value="avge_mass" >Referenc</option>
+</select>
+</td> -->
+<td  align=center valign=middle class=shade >
+<select id="ctlSearchOption">
+<option value="Contains" selected>Contains</option>
+<option value="Equals" >Equals</option>
+<option value="Starts with ..." >Starts with ...</option>
+<option value="More than ..." >More than ...</option>
+<option value="Less than ..." >Less than ...</option>
+<option value="Equal or more than ..." >Equal or more than ...</option>
+<option value="Equal or less than ..." >Equal or less than ...</option>
+<option value="Empty" >Empty</option>
+</select>
+</td><td  align=center valign=middle class=shade >
+<input type=text size=20 onkeydown="e = window.event;
+	if (e.keyCode != 13) return true;
+	e.cancel = true;
+	RunSearch();
+	return false;"
+	  id="ctlSearchFor" value="">
+</td><td  align=center valign=middle class=shade >
+<input type=button class="button" value="Search"
+onClick="javascript: RunSearch();">
+&nbsp;		
+<input type=button class=button value="Show all" 
+onClick="javascript: frmSearch.a.value = 'showall'; frmSearch.submit();"> 	
+</td  align=center valign=middle class=shade >
+<!-- how many records found-->
+<td align=center class=shade rowspan="3" style=
+ "border: solid 0 white; border-left-width:2px; padding-left:0.5ex">
+Records found: 3<br>
+Page 1 of 1
+</td>
+<!--Records per page-->
+<td align=center class=shade rowspan="3" style=
+   "border: solid 0 white; border-left-width:2px; padding-left:0.5ex">
+Records Per Page:<br>
+<select 
+onChange="javascript: _blank;">
+<option value="10" >10</option>
+<option value="20" selected>20</option>
+<option value="30" >30</option>
+<option value="50" >50</option>
+<option value="100" >100</option>
+<option value="500" >500</option>
+</select>
+</td></tr>
+<tr>
+<td align=center valign=middle class=shade>OR</td>
+<td  align=center valign=middle class=shade >
+<select id="ctlSearchOption">
+<option value="Contains" selected>Contains</option>
+<option value="Equals" >Equals</option>
+<option value="Starts with ..." >Starts with ...</option>
+<option value="More than ..." >More than ...</option>
+<option value="Less than ..." >Less than ...</option>
+<option value="Equal or more than ..." >Equal or more than ...</option>
+<option value="Equal or less than ..." >Equal or less than ...</option>
+<option value="Empty" >Empty</option>
+</select>
+</td><td  align=center valign=middle class=shade >
+<input type=text size=20 onkeydown="e = window.event;
+	if (e.keyCode != 13) return true;
+	e.cancel = true;
+	RunSearch();
+	return false;"
+	  id="ctlSearchFor" value="">
+</td>
+<td  align=center valign=middle class=shade >
+</td>
+</tr><tr>
+<td align=center valign=middle class=shade>OR</td>
+<td  align=center valign=middle class=shade >
+<select id="ctlSearchOption">
+<option value="Contains" selected>Contains</option>
+<option value="Equals" >Equals</option>
+<option value="Starts with ..." >Starts with ...</option>
+<option value="More than ..." >More than ...</option>
+<option value="Less than ..." >Less than ...</option>
+<option value="Equal or more than ..." >Equal or more than ...</option>
+<option value="Equal or less than ..." >Equal or less than ...</option>
+<option value="Empty" >Empty</option>
+</select>
+</td><td  align=center valign=middle class=shade >
+<input type=text size=20 onkeydown="e = window.event;
+	if (e.keyCode != 13) return true;
+	e.cancel = true;
+	RunSearch();
+	return false;"
+	  id="ctlSearchFor" value="">
+</td>
+<td  align=center valign=middle class=shade >
+</td>
+</tr>
+</table></td></tr></table></td></tr></table>
 
-      #content {
-        float: left;
-        background-color: white;
-        border: 3px solid #aaa;
-        border-top: none;
-        padding: 25px;
-        width: 500px;
-      }
+<table align="center" width="95%" border="0" cellpadding=3 cellspacing=2 style="border: solid; border-width: 1px; border-color: #C0C0C0;">
+<!-- table header -->
+<tr class="blackshade" valign="top">
+<td align="center">Sustrate</td>
+<td>Name</td>
+<td>Type</td>
+<td>Analysis Technique</td>
+<td>Host System</td>
+<td>Km(in vitro properties?)</td>
+<td>Organism of in vivo analysis</td>
+<td>Flourophore</td>
+<td>PI</td>
+</tr>
 
-      #sidebar {
-        float: right;
-        width: 175px;
-      }
+<tr valign="top"
+class="shade" 
+onmouseover="this.className = 'rowselected';" onmouseout="this.className = 'shade';"> 
 
-      #footer {
-        clear: both;
-      }
+<td align="center">PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics</td>
+<td>GFP-PH<sub>PLC-</sub></td>
+<td>Translocation-based biosensors</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>
+  <a href="http://www.ncbi.nlm.nih.gov/pubmed/12900176" >Nash,MS</a><br>
+  <a href="http://www.ncbi.nlm.nih.gov/pubmed/11375483" >Shapiro,L</a>
+</td>
+</tr><tr valign="top"
+onmouseover="this.className = 'rowselected';" onmouseout="this.className = '';"> 
 
+<td align="center"><sup>Hg2+</sup></td>
+<td>CYPHR (FRET: PLC activity)</td>
+<td>FRET-based biosensors- mechanical force</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/9512420" >Meyer,T</a></td></td>
+</tr>
+<tr valign="top" class="shade"
+onmouseover="this.className = 'rowselected';" onmouseout="this.className = '';"> 
 
-      #header, #about, #getting-started {
-        padding-left: 75px;
-        padding-right: 30px;
-      }
-
-
-      #header {
-        background-image: url("images/rails.png");
-        background-repeat: no-repeat;
-        background-position: top left;
-        height: 64px;
-      }
-      #header h1, #header h2 {margin: 0}
-      #header h2 {
-        color: #888;
-        font-weight: normal;
-        font-size: 16px;
-      }
-
-
-      #about h3 {
-        margin: 0;
-        margin-bottom: 10px;
-        font-size: 14px;
-      }
-
-      #about-content {
-        background-color: #ffd;
-        border: 1px solid #fc0;
-        margin-left: -55px;
-        margin-right: -10px;
-      }
-      #about-content table {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: 11px;
-        border-collapse: collapse;
-      }
-      #about-content td {
-        padding: 10px;
-        padding-top: 3px;
-        padding-bottom: 3px;
-      }
-      #about-content td.name  {color: #555}
-      #about-content td.value {color: #000}
-
-      #about-content ul {
-        padding: 0;
-        list-style-type: none;
-      }
-
-      #about-content.failure {
-        background-color: #fcc;
-        border: 1px solid #f00;
-      }
-      #about-content.failure p {
-        margin: 0;
-        padding: 10px;
-      }
+<td align="center">PO<sub>4</sub><sup>2-</sup></td>
+<td>FP-PH<sup>PLCd1</sup>(FRET)</td>
+<td>Single FP-based intrinsic biosensors</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/9512420" >Meyer,T</a></td></td>
+</tr>
 
 
-      #getting-started {
-        border-top: 1px solid #ccc;
-        margin-top: 25px;
-        padding-top: 15px;
-      }
-      #getting-started h1 {
-        margin: 0;
-        font-size: 20px;
-      }
-      #getting-started h2 {
-        margin: 0;
-        font-size: 14px;
-        font-weight: normal;
-        color: #333;
-        margin-bottom: 25px;
-      }
-      #getting-started ol {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #getting-started li {
-        font-size: 18px;
-        color: #888;
-        margin-bottom: 25px;
-      }
-      #getting-started li h2 {
-        margin: 0;
-        font-weight: normal;
-        font-size: 18px;
-        color: #333;
-      }
-      #getting-started li p {
-        color: #555;
-        font-size: 13px;
-      }
+</table>
 
+        </TD>
+		</TR>
+		</TABLE>
+		</CENTER>
 
-      #sidebar ul {
-        margin-left: 0;
-        padding-left: 0;
-      }
-      #sidebar ul h3 {
-        margin-top: 25px;
-        font-size: 16px;
-        padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-      }
-      #sidebar li {
-        list-style-type: none;
-      }
-      #sidebar ul.links li {
-        margin-bottom: 5px;
-      }
-
-    </style>
-    <script type="text/javascript">
-      function about() {
-        info = document.getElementById('about-content');
-        if (window.XMLHttpRequest)
-          { xhr = new XMLHttpRequest(); }
-        else
-          { xhr = new ActiveXObject("Microsoft.XMLHTTP"); }
-        xhr.open("GET","rails/info/properties",false);
-        xhr.send("");
-        info.innerHTML = xhr.responseText;
-        info.style.display = 'block'
-      }
-    </script>
-  </head>
-  <body>
-    <div id="page">
-      <div id="sidebar">
-        <ul id="sidebar-items">
-          <li>
-            <h3>Browse the documentation</h3>
-            <ul class="links">
-              <li><a href="http://api.rubyonrails.org/">Rails API</a></li>
-              <li><a href="http://stdlib.rubyonrails.org/">Ruby standard library</a></li>
-              <li><a href="http://corelib.rubyonrails.org/">Ruby core</a></li>
-              <li><a href="http://guides.rubyonrails.org/">Rails Guides</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-      <div id="content">
-        <div id="header">
-          <h1>Welcome aboard</h1>
-          <h2>You&rsquo;re riding Ruby on Rails!</h2>
-        </div>
-
-        <div id="about">
-          <h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
-          <div id="about-content" style="display: none"></div>
-        </div>
-
-        <div id="getting-started">
-          <h1>Getting started</h1>
-          <h2>Here&rsquo;s how to get rolling:</h2>
-
-          <ol>
-            <li>
-              <h2>Use <code>rails generate</code> to create your models and controllers</h2>
-              <p>To see all available options, run it without parameters.</p>
-            </li>
-
-            <li>
-              <h2>Set up a default route and remove or rename this file</h2>
-              <p>Routes are set up in config/routes.rb.</p>
-            </li>
-
-            <li>
-              <h2>Create your database</h2>
-              <p>Run <code>rake db:migrate</code> to create your database. If you're not using SQLite (the default), edit <code>config/database.yml</code> with your username and password.</p>
-            </li>
-          </ol>
-        </div>
-      </div>
-
-      <div id="footer">&nbsp;</div>
-    </div>
-  </body>
+</body>
 </html>
+
