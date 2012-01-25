@@ -2,6 +2,104 @@
 <head>
 <title>Biosensor</title>
 <link REL="stylesheet" href="./stylesheets/style.css" type="text/css">
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("input#autocomplete").autocomplete({
+    source: ["PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics",
+"PtdIns(3,4)P2",
+"PtdIns(3,4,5)P3",
+"PtdIns(3,5)P2",
+"PtdIns3P",
+"PtdIns4P",
+"PtdIns(4,5)P2",
+"Phosphatidylserine",
+"1,2-diacylglycerol",
+"pH",
+"halide ions",
+"redox",
+"redox (superoxide)",
+"Hg2+",
+"Ca2+",
+"ATP:ADP ratio",
+"cGMP",
+"voltage",
+"Insulin activation",
+"Cell cycle progression",
+"redox (H2O2)",
+"Ca2+",
+"Zn2+",
+"Cu+",
+"Cl-",
+"PO42-",
+"pH",
+"camp",
+"cGMP",
+"ATP",
+"PtdIns(3,4)P2",
+"PtdIns(4,5)P2",
+"PtdIns(3,4,5)P3",
+"inositol 1,4,5-trisphosphate",
+"diacylglycerol",
+"Phosphatidic acid",
+"NO",
+"BAI2 (a furanosyl borate diester)",
+"glucose ",
+"Maltose",
+"Ribose",
+"Sucrose",
+"arabinose",
+"glutamate",
+"glutamine",
+"arginine",
+"tryptophan",
+"histidine",
+"leucine ",
+"citrate",
+"Neurotrophic factor",
+"Protein kinase A",
+"Protein kinase B/Akt",
+"Protein kinase C",
+"Protein kinase D",
+"MK2",
+"epidermal growth factor receptor (EGFR)",
+"Abl",
+"ABl",
+"EGFR",
+"Src",
+"CyclinB-Cdk1",
+"Glucokinase",
+"Insulin Receptor",
+"ATM",
+"Extracellular signal-regulated kinase (ERK) ",
+"Histone H3 phosphorylation",
+"Aurora B kinase",
+"various proteases",
+"histone lysine methylation",
+"O-GlcNAc transferase",
+"protein phosphatase (calcineurin)",
+"voltage",
+"redox",
+"Rho family GTPase activation",
+"G protein activation",
+"MAP kinase-activated protein kinase 2 conformation",
+"Akt conformation",
+"PKB conformation",
+"Wiskott-Aldrich syndrome protein (WASP) conformation ",
+"CaMKII conformation",
+"Estrogen receptor ligand binding domain conformation",
+"ERK  conformation",
+"M(1) muscarinic receptor (M(1)R) activation",
+"activation of plasma membrane Ca2+ pump",
+"Annexin A4 self-association",
+"Mechanical strain"]
+});
+  });
+  </script>
+
 </head>
 <body topmargin=5 bgcolor=white onLoad="if(document.getElementById('SearchFor')) document.getElementById('ctlSearchFor').focus();">
 
@@ -26,7 +124,7 @@
 <TABLE WIDTH=100% CELLPADDING=4 CELLSPACING=0 BORDER=0 align=center style="border: solid; border-width: 1px; border-color: #C0C0C0;">
 <tr>
 <td align=center valign=middle class=shade>
-<b>Search substrate: </b> 
+<b>Search for substrates: </b> 
 </td>
 <!--<td>
 <select id="ctlSearchField">
@@ -41,7 +139,7 @@
 <option value="avge_mass" >Referenc</option>
 </select>
 </td> -->
-<td  align=center valign=middle class=shade >
+<!-- <td  align=center valign=middle class=shade >
 <select id="ctlSearchOption">
 <option value="Contains" selected>Contains</option>
 <option value="Equals" >Equals</option>
@@ -52,13 +150,9 @@
 <option value="Equal or less than ..." >Equal or less than ...</option>
 <option value="Empty" >Empty</option>
 </select>
-</td><td  align=center valign=middle class=shade >
-<input type=text size=20 onkeydown="e = window.event;
-	if (e.keyCode != 13) return true;
-	e.cancel = true;
-	RunSearch();
-	return false;"
-	  id="ctlSearchFor" value="">
+</td> -->
+<td  align=center valign=middle class=shade >
+<input type=text size=20 id="autocomplete" >
 </td><td  align=center valign=middle class=shade >
 <input type=button class="button" value="Search"
 onClick="javascript: RunSearch();">
@@ -88,7 +182,7 @@ onChange="javascript: _blank;">
 </td></tr>
 <tr>
 <td align=center valign=middle class=shade>OR</td>
-<td  align=center valign=middle class=shade >
+<!-- <td  align=center valign=middle class=shade >
 <select id="ctlSearchOption">
 <option value="Contains" selected>Contains</option>
 <option value="Equals" >Equals</option>
@@ -99,19 +193,15 @@ onChange="javascript: _blank;">
 <option value="Equal or less than ..." >Equal or less than ...</option>
 <option value="Empty" >Empty</option>
 </select>
-</td><td  align=center valign=middle class=shade >
-<input type=text size=20 onkeydown="e = window.event;
-	if (e.keyCode != 13) return true;
-	e.cancel = true;
-	RunSearch();
-	return false;"
-	  id="ctlSearchFor" value="">
+</td> -->
+<td  align=center valign=middle class=shade >
+<input type=text size=20 id="autocomplete">
 </td>
 <td  align=center valign=middle class=shade >
 </td>
 </tr><tr>
 <td align=center valign=middle class=shade>OR</td>
-<td  align=center valign=middle class=shade >
+<!-- <td  align=center valign=middle class=shade >
 <select id="ctlSearchOption">
 <option value="Contains" selected>Contains</option>
 <option value="Equals" >Equals</option>
@@ -122,13 +212,9 @@ onChange="javascript: _blank;">
 <option value="Equal or less than ..." >Equal or less than ...</option>
 <option value="Empty" >Empty</option>
 </select>
-</td><td  align=center valign=middle class=shade >
-<input type=text size=20 onkeydown="e = window.event;
-	if (e.keyCode != 13) return true;
-	e.cancel = true;
-	RunSearch();
-	return false;"
-	  id="ctlSearchFor" value="">
+</td> -->
+<td  align=center valign=middle class=shade >
+<input type=text size=20 id="autocomplete">
 </td>
 <td  align=center valign=middle class=shade >
 </td>
@@ -138,7 +224,7 @@ onChange="javascript: _blank;">
 <table align="center" width="95%" border="0" cellpadding=3 cellspacing=2 style="border: solid; border-width: 1px; border-color: #C0C0C0;">
 <!-- table header -->
 <tr class="blackshade" valign="top">
-<td align="center">Sustrate</td>
+<td align="center">Substrate</td>
 <td>Name</td>
 <td>Type</td>
 <td>Analysis Technique</td>
