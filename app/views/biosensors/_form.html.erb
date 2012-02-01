@@ -1,0 +1,61 @@
+<%= form_for(@biosensor) do |f| %>
+  <% if @biosensor.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@biosensor.errors.count, "error") %> prohibited this biosensor from being saved:</h2>
+
+      <ul>
+      <% @biosensor.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :specificity %><br />
+    <%= f.text_field :specificity %>
+  </div>
+  <div class="field">
+    <%= f.label :specificity_htm %><br />
+    <%= f.text_field :specificity_htm %>
+  </div>
+  <div class="field">
+    <%= f.label :sensor_name %><br />
+    <%= f.text_field :sensor_name %>
+  </div>
+  <div class="field">
+    <%= f.label :sensor_name_htm %><br />
+    <%= f.text_field :sensor_name_htm %>
+  </div>
+  <div class="field">
+    <%= f.label :sensor_type %><br />
+    <%= f.text_field :sensor_type %>
+  </div>
+  <div class="field">
+    <%= f.label :anal_tech %><br />
+    <%= f.text_field :anal_tech %>
+  </div>
+  <div class="field">
+    <%= f.label :iv_props %><br />
+    <%= f.text_field :iv_props %>
+  </div>
+  <div class="field">
+    <%= f.label :organism %><br />
+    <%= f.text_field :organism %>
+  </div>
+  <div class="field">
+    <%= f.label :fluorophore %><br />
+    <%= f.text_field :fluorophore %>
+  </div>
+  <div class="field">
+    <%= f.label :pub_med_id %><br />
+    <%= f.text_field :pub_med_id %>
+  </div>
+  <div class="field">
+    <%= f.label :pi_name %><br />
+    <%= f.text_field :pi_name %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

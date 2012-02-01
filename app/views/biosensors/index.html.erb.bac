@@ -1,0 +1,39 @@
+<h1>Listing biosensors</h1>
+
+<table border=1 >
+  <tr>
+    <th>Specificity</th>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Analysis technique</th>
+    <th>In vitro properties</th>
+    <th>Organism</th>
+    <th>Fluorophore</th>
+    <th>PubMedId</th>
+    <th>PI name</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @biosensors.each do |biosensor| %>
+  <tr>
+    <td><%= biosensor.sensitivity %></td>
+    <td><%= biosensor.sensor_name %></td>
+    <td><%= biosensor.sensor_type %></td>
+    <td><%= biosensor.anal_tech %></td>
+    <td><%= biosensor.iv_props %></td>
+    <td><%= biosensor.organism %></td>
+    <td><%= biosensor.fluorophore %></td>
+    <td><%= biosensor.pub_med_id %></td>
+    <td><%= biosensor.pi_name %></td>
+    <td><%= link_to 'Show', biosensor %></td>
+    <td><%= link_to 'Edit', edit_biosensor_path(biosensor) %></td>
+    <td><%= link_to 'Destroy', biosensor, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Biosensor', new_biosensor_path %>

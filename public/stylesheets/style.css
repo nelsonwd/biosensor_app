@@ -1,14 +1,14 @@
 A
 {
     FONT-SIZE: 8pt;
-    COLOR: #cc3300;
+    COLOR: #333333;
     FONT-FAMILY: Verdana, Arial, Helvetica, sans serif;
     TEXT-DECORATION: none
 }
-A:hover
+/*A:hover
 {
     TEXT-DECORATION: underline
-}
+} */
 TD, TH
 {
     FONT-SIZE: 8pt;

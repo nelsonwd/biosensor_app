@@ -1,0 +1,47 @@
+PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	GFP-PHPLC-	GFP-PH<sub>PLC-</sub>	Translocation-based biosensors	?	?	?	?		
+PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	CYPHR (FRET: PLC activity)	CYPHR (FRET: PLC activity)	Translocation-based biosensors	?	?	?	?		
+PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	FP-Tubby	FP-Tubby	Translocation-based biosensors	?	?	?	?		
+PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	FP-PHPLCd1(FRET)	FP-PH<sup>PLCd1</sup>(FRET)	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-ARNO	GFP-ARNO	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	Cytohesin-1	Cytohesin-1	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-ARNO	GFP-ARNO	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	Cytohesin-1	Cytohesin-1	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-ARNO	GFP-ARNO	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	Cytohesin-1	Cytohesin-1	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors	?	?	?	?		
+PtdIns3P	PtdIns3P	GFP-FYVEEEA1	GFP-FYVE<sup>EEA1</sup>	Translocation-based biosensors	?	?	?	?	9702203	Emr SD
+PtdIns3P	PtdIns3P	GFPÐp40phox iPX	GFPÐp40<sup>phox</sup> iPX	Translocation-based biosensors	?	?	?	?	11433301	Stephens LR
+PtdIns4P	PtdIns4P	GFP-PHOSH2	GFP-PH<sup>OSH2</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns4P	PtdIns4P	PHOSBP	PH<sup>OSBP</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns4P	PtdIns4P	GFP-PHFAPP	GFP-PH<sup>FAPP</sup>	Translocation-based biosensors	??	??	??	??	??	??
+PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-PHOSH2	GFP-PH<sup>OSH2</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	PHOSBP	PH<sup>OSBP</sup>	Translocation-based biosensors	?	?	?	?		
+PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-PHFAPP	GFP-PH<sup>FAPP</sup>	Translocation-based biosensors	?	?	?	?		
+Phosphatidylserine	Phosphatidylserine	GFP-Lact-C2	GFP-Lact-C2	Translocation-based biosensors	?	?	?	?	18187657	Grinstein S
+1,2-diacylglycerol	1,2-diacylglycerol	Cys1-GFP	Cys1-GFP	Translocation-based biosensors	?	?	?	?	9456311	Meyer T
+1,2-diacylglycerol	1,2-diacylglycerol	DAGR (FRET)	DAGR (FRET)	Translocation-based biosensors	?	?	?	?	12782683	Newton AC
+pH	pH	ECFP	ECFP	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	EYFP	EYFP	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	pHluorins; deGFP1-4; E2GFP	pHluorins; deGFP1-4; E<sup>2</sup>GFP	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	GFpH	GFpH	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	YFpH	YFpH	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	mtAlpHi	mtAlpHi	Single FP-based intrinsic biosensors	?	?	?	?		
+pH	pH	pHRed	pHRed	Single FP-based intrinsic biosensors	?	?	?	?		
+halide ions	halide ions	YFP-H148Q	YFP-H148Q	Single FP-based intrinsic biosensors	?	?	?	?	11423120	Verkman AS
+halide ions	halide ions	YFP-H148QI152L	YFP-H148QI152L	Single FP-based intrinsic biosensors	?	?	?	?	10692389	Verkham AS
+redox	redox	roGFPs	roGFPs	Single FP-based intrinsic biosensors	?	?	?	?		
+redox	redox	rxYFP149202	rxYFP<sup>149</sup><sub>202</sub>	Single FP-based intrinsic biosensors	?	?	?	?		
+redox (superoxide)	redox (superoxide)	cpYFP	cpYFP	Single FP-based intrinsic biosensors	?	?	?	?	18662543	Cheng H
+Hg2+	Hg<sup>2+</sup>	eGFP205C	eGFP205C	Single FP-based intrinsic biosensors	?	?	?	?	18305194	Sagermann M
+Hg2+	Hg<sup>2+</sup>	IFP/BV sensor	IFP/BV sensor	Single FP-based intrinsic biosensors	?	?	?	?	21323346	Tang Y
