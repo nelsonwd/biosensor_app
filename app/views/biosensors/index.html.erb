@@ -1,4 +1,6 @@
-
+<% if session[:user_id] %>
+ <%= link_to 'New Biosensor', new_biosensor_path %>
+<% end %>
 <table align="center" width="95%" border="0" cellpadding=3 cellspacing=2 style="border: solid; border-width: 1px; border-color: #C0C0C0;">
   <tr class="blackshade" valign="top" >
     <th align="center" ><table><tr><th><a href="/biosensors?sort_by=specificity&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>" >Specificity</a></th><td><%= @sort_by_state[:specificity].html_safe %></td></tr></table></th>
@@ -9,9 +11,10 @@
     <th align="center" ><table><tr><th><a href="/biosensors?sort_by=organism&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">Organism of in vivo analysis</a></th><td><%= @sort_by_state[:organism].html_safe %></td></tr></table></th>
     <th align="center" ><table><tr><th><a href="/biosensors?sort_by=fluorophore&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">Fluorophore</a></th><td><%= @sort_by_state[:fluorophore].html_safe %></td></tr></table></th>
     <th align="center" ><table><tr><th><a href="/biosensors?sort_by=pi_name&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">PI</a></th><td><%= @sort_by_state[:pi_name].html_safe %></td></tr></table></th>
+  <% if session[:user_id] %>
     <th></th>
     <th></th>
-    <th></th>
+  <% end %>
   </tr>
 <% shade = 0 
    att = 'class="shade"'
@@ -25,9 +28,11 @@
     <td><%= biosensor.organism %></td>
     <td><%= biosensor.fluorophore %></td>
     <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/<%= biosensor.pub_med_id %>" ><%= biosensor.pi_name %></a></td>
-    <td><%= link_to 'Show', biosensor %></td>
+  <% if session[:user_id] %>
     <td><%= link_to 'Edit', edit_biosensor_path(biosensor) %></td>
-    <td><%= link_to 'Destroy', biosensor, :confirm => 'Are you sure?', :method => :delete %></td>
+    <!--<td><%= link_to 'Destroy', biosensor, :confirm => 'Are you sure?', :method => :delete %></td>-->
+    <td><a href="/biosensors/<%= biosensor.id %>/destroy" onClick="return confirm('Are you sure?');" >Destroy</a></td>
+  <% end %>
   </tr>
   <% shade += 1
   end %>
@@ -35,4 +40,6 @@
 
 <br />
 
-<%= link_to 'New Biosensor', new_biosensor_path %>
+<% if session[:user_id] %>
+ <%= link_to 'New Biosensor', new_biosensor_path %>
+<% end %>

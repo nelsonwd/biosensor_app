@@ -1,4 +1,5 @@
 class BiosensorsController < ApplicationController
+  skip_before_filter :authorize
   # GET /biosensors
   # GET /biosensors.xml
   def index

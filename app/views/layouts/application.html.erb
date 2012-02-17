@@ -34,13 +34,20 @@
 
     <TR>
     <TD VALIGN = "BOTTOM" ALIGN = "LEFT">
-    <A HREF=""><IMG SRC = "/images/logo.png"
+    <A HREF="<%= root_url %>"><IMG SRC = "/images/logo.png"
          WIDTH = "584"
          HEIGHT = "104"
          BORDER = "0" ALT = "Biosensors"></A></TD>
     <TD VALIGN = "TOP" ALIGN = "LEFT">
-      <A HREF = "_blank" TARGET=_blank>Login</A><br>
-      <A HREF = "_blank" TARGET=_blank>Help</A></TD>
+      <% if session[:user_id] %>
+        <%= link_to "Users", users_url %><br>
+      <% end %>
+      <% unless session[:user_id] %>
+        <%= link_to "Login", login_url %>
+      <% else %>
+        <%= link_to "Log out", logout_url %>
+      <% end %>
+      
     </TR>
     <TR>
       <TD COLSPAN=2>

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120127193826) do
+ActiveRecord::Schema.define(:version => 20120216173411) do
 
   create_table "biosensors", :force => true do |t|
     t.string   "specificity"
@@ -24,6 +24,14 @@ ActiveRecord::Schema.define(:version => 20120127193826) do
     t.string   "fluorophore"
     t.string   "pub_med_id"
     t.string   "pi_name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "name"
+    t.string   "hashed_password"
+    t.string   "salt"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

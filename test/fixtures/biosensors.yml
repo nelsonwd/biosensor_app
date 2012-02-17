@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  specificity: MyString
+  specificity_htm: MyString
+  sensor_name: MyString
+  sensor_name_htm: MyString
+  sensor_type: MyString
+  anal_tech: MyString
+  iv_props: MyString
+  organism: MyString
+  fluorophore: MyString
+  pub_med_id: MyString
+  pi_name: MyString
+
+two:
+  specificity: MyString
+  specificity_htm: MyString
+  sensor_name: MyString
+  sensor_name_htm: MyString
+  sensor_type: MyString
+  anal_tech: MyString
+  iv_props: MyString
+  organism: MyString
+  fluorophore: MyString
+  pub_med_id: MyString
+  pi_name: MyString
