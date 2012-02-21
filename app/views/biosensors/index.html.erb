@@ -27,7 +27,7 @@
     <table><tr><th><a href="/biosensors?sort_by=fluorophore&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">Fluorophore</a></th><td><%= @sort_by_state[:fluorophore].html_safe %></td></tr>
 </table></th>
     <th align="center" >
-    <table><tr><th><a href="/biosensors?sort_by=pi_name&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">PI</a></th><td><%= @sort_by_state[:pi_name].html_safe %></td></tr>
+    <table><tr><th><a  href="/biosensors?sort_by=pi_name&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">PI</a></th><td><%= @sort_by_state[:pi_name].html_safe %></td></tr>
 </table></th>
   <% if session[:user_id] %>
     <th></th>
@@ -45,7 +45,7 @@
     <!--<td><%= biosensor.iv_props %></td>-->
     <td><%= biosensor.organism %></td>
     <td><%= biosensor.fluorophore %></td>
-    <td><a href="http://www.ncbi.nlm.nih.gov/pubmed/<%= biosensor.pub_med_id %>" ><%= biosensor.pi_name %></a></td>
+    <td><a  href="http://www.ncbi.nlm.nih.gov/pubmed/<%= biosensor.pub_med_id %>" class="refnum" ><%= biosensor.pi_name %></a></td>
   <% if session[:user_id] %>
     <td><%= link_to 'Edit', edit_biosensor_path(biosensor) %></td>
     <!--<td><%= link_to 'Destroy', biosensor, :confirm => 'Are you sure?', :method => :delete %></td>-->
