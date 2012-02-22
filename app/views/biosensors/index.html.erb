@@ -17,9 +17,9 @@
     <th align="center" >
     <table><tr><th><a href="/biosensors?sort_by=anal_tech&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">Analysis technique</a></th><td><%= @sort_by_state[:anal_tech].html_safe %></td></tr>
 </table></th>
-    <!--<th align="center" >
+    <th align="center" >
     <table><tr><th><a href="/biosensors?sort_by=iv_props&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">In vitro properties</a></th><td><%= @sort_by_state[:iv_props].html_safe %></td></tr>
-</table></th>-->
+</table></th>
     <th align="center" >
     <table><tr><th><a href="/biosensors?sort_by=organism&last_sort_direction=<%= @last_sort_direction %>&last_sort=<%= @last_sort %>&autocomplete1=<%= @autocomplete1 %>&autocomplete2=<%= @autocomplete2 %>&autocomplete3=<%= @autocomplete3 %>">Cell type of in vivo analysis</a></th><td><%= @sort_by_state[:organism].html_safe %></td></tr>
 </table></th>
@@ -42,7 +42,7 @@
     <td><%= biosensor.sensor_name_htm.html_safe %></td>
     <td><%= biosensor.sensor_type %></td>
     <td><%= biosensor.anal_tech %></td>
-    <!--<td><%= biosensor.iv_props %></td>-->
+    <td><%= biosensor.iv_props %></td>
     <td><%= biosensor.organism %></td>
     <td><%= biosensor.fluorophore %></td>
     <td><a  href="http://www.ncbi.nlm.nih.gov/pubmed/<%= biosensor.pub_med_id %>" class="refnum" ><%= biosensor.pi_name %></a></td>
