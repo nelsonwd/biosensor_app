@@ -3,9 +3,10 @@
     <p id='notice'><%= notice %></p>
   <% end %>
 
-<table>
+<table border=1 >
   <tr>
     <th>Name</th>
+    <th>Administrator</th>
     <th></th>
     <th></th>
     <th></th>
@@ -14,9 +15,11 @@
 <% @users.each do |user| %>
   <tr>
     <td><%= user.name %></td>
+    <td><%= user.administrator%></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>
+    <!-- <td><%= link_to 'Destroy', user, :confirm => 'Are you sure?', :method => :delete %></td>-->
+    <td><a href="/users/<%= user.id %>/destroy" onClick="return confirm('Are you sure?');" >Destroy</a></td>
   </tr>
 <% end %>
 </table>

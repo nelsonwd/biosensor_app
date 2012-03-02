@@ -1,16 +1,16 @@
 BiosensorApp::Application.routes.draw do
 #  get "admin/index"
 
-controller :sessions do
-  get 'login' => :new
-  post 'login' => :create
-  get 'logout' => :destroy
-end
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    get 'logout' => :destroy
+  end
 
-match 'biosensors/:id/destroy' => 'biosensors#destroy'
+  match 'biosensors/:id/destroy' => 'biosensors#destroy'
+  match 'users/:id/destroy' => 'users#destroy'
 
   resources :users
-
   resources :biosensors
 
   # The priority is based upon order of creation:

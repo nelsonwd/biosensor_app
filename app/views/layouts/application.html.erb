@@ -40,7 +40,9 @@
          BORDER = "0" ALT = "Biosensors"></A></TD>
     <TD VALIGN = "TOP" ALIGN = "LEFT">
       <% if session[:user_id] %>
-        <%= link_to "Users", users_url %><br>
+        <% if session[:user_id].administrator? %>
+          <%= link_to "Users", users_url %><br>
+        <% end %>
       <% end %>
       <% unless session[:user_id] %>
         <%= link_to "Login", login_url %>
