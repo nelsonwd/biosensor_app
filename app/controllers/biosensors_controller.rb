@@ -11,7 +11,7 @@ class BiosensorsController < ApplicationController
     @autocomplete3 = params[:autocomplete3]|| ''
     @biosensors    = []
     
-    @sort_by_state = {:specificity => "", :sensor_name => "", :sensor_type => "", :anal_tech => "", 
+    @sort_by_state = {:sensor_target_type => "", :specificity => "", :sensor_name => "", :sensor_type => "", :anal_tech => "", 
                       :iv_props => "", :organism => "", :fluorophore => "", :pi_name => ""}
 
     if params[:sort_by] ==  params[:last_sort]

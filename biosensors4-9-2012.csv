@@ -1,0 +1,210 @@
+Metabolites	1,2-diacylglycerol	1,2-diacylglycerol	Cys1-GFP	Cys1-GFP	Translocation-based biosensors					9456311	Meyer T
+Metabolites	1,2-diacylglycerol	1,2-diacylglycerol	DAGR (FRET)	DAGR (FRET)	Translocation-based biosensors					12782683	Newton AC
+Kinase activity	Abl	Abl	Crk-based reporter	Crk-based reporter	FRET-based biosensors 					11752449	Tsien RY
+Kinase activity	ABl	ABl	Picchu	Picchu	FRET-based biosensors 					15922734	Matsuda M
+Kinase activity	ABl	ABl	Picchu-Z/EGFR-Z	Picchu-Z/EGFR-Z	FRET-based biosensors 					11406630	Matsuda M
+Protein Activation and Conformation	activation of plasma membrane Ca2+ pump	activation of plasma membrane Ca<sup>2+</sup> pump	BFP-PMCA-GFP	BFP-PMCA-GFP	FRET-based biosensors 					17901055	Adamo HP
+Protein Activation and Conformation	Akt conformation	Akt conformation	GFP–Akt–YFP; ReAktion	GFP–Akt–YFP; ReAktion	FRET-based biosensors 					17928291, 12662152	Zhang J, Larijani B
+Protein Activation and Conformation	Annexin A4 self-association	Annexin A4 self-association	CYNEX4	CYNEX4	FRET-based biosensors 					1483058	Schultz C
+Metabolites	arabinose	arabinose	FLIPara sensors	FLIPara sensors	FRET-based biosensors 					18522753	Frommer WB
+Metabolites	arginine	arginine	FRET arginine reporter	FRET arginine reporter	FRET-based biosensors 					17492367	Ludewig U
+Metabolites	arginine	arginine	FLIP-cpGlnH183	FLIP-cpGlnH183	FRET-based biosensors 					19827096	Ito T
+Kinase activity	ATM	ATM	ATOMIC	ATOMIC	FRET-based biosensors 					17428747	Hunter T
+Metabolites	ATP	ATP	Ateams	Ateams	FRET-based biosensors 					19720993	Noji H
+Metabolites	ATP:ADP ratio	ATP:ADP ratio	Perceval	Perceval	Single FP-based extrinsic biosensors 					19122669	Yellen G
+Kinase activity	Aurora B kinase	Aurora B kinase	aurora B sensor	aurora B sensor	FRET-based biosensors 					18463638	Kapoor TM
+Metabolites	BAI2 (a furanosyl borate diester)	BAI2 (a furanosyl borate diester)	CLPY	CLPY	FRET-based biosensors 					21031302	Sayre R
+Metabolites	BAI2 (a furanosyl borate diester)	BAI2 (a furanosyl borate diester)	LuxP-FRET	LuxP-FRET	FRET-based biosensors 					17352493	Sayre R
+Ions	Ca2+	Ca<sup>2+</sup>	Pericams	Pericams	Single FP-based extrinsic biosensors 					10500161, 11248055, 21903779	Tsien RY, Miyawaki A, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	 G-CaMPs	G-CaMPs	Single FP-based extrinsic biosensors 					10500161, 11175727, 16537386, 19898485, 21903779	Tsien RY, Imoto K, Kotlikoff MI, Looger LL, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	Case12/16	Case12/16	Single FP-based extrinsic biosensors 					10500161, 17603870, 21903779	Tsien RY, Chudakov DM, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	Camgaroos	Camgaroos	Single FP-based extrinsic biosensors 					10500161, 21903779	Tsien RY, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	B-GECO	B-GECO	Single FP-based extrinsic biosensors 					10500161, 21903779	Tsien RY, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	G-GECO	G-GECO	Single FP-based extrinsic biosensors 					10500161, 21903779	Tsien RY, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	R-GECO	R-GECO	Single FP-based extrinsic biosensors 					10500161, 21903779	Tsien RY, Campbell RE
+Ions	Ca2+	Ca<sup>2+</sup>	Cameleons	Cameleons	FRET-based biosensors 					9278050, 15247428, 16720273, 9148946, 9148946	Tsien RY, Miyawaki A, Tsien RY, Persechini A, Ikura M
+Ions	Ca2+	Ca<sup>2+</sup>	FIP-CBSM TN-XL	FIP-CB<sub>SM</sub>TN-XL	FRET-based biosensors 					15247428, 9148946, 9148946	Miyawaki A, Persechini A, Ikura M
+Ions	Ca2+	Ca<sup>2+</sup>	TN-XXL	TN-XXL	FRET-based biosensors 					19160515, 15247428, 9148946,9148946	Griesbeck O, Miyawaki A, Persechini A, Ikura M
+Protein Activation and Conformation	CaMKII conformation	CaMKII conformation	Camui?amCYCaMII?	Camui&alpha;amCYCaMII&alpha;	FRET-based biosensors 					18355004, 15788767	Schultz C, Hayashi Y
+Metabolites	cAMP	cAMP	FP-PKARII/FP-PKAcat	FP-PKA<sup>RII</sup>/FP-PKA<sup>cat</sup>	FRET-based biosensors 				eBFP and GFP or CFP and YFP	10620803, 11872839	Pozzan T, Pozzan T
+Metabolites	cAMP	cAMP	CFP–Epac–YFP	CFP–Epac–YFP	FRET-based biosensors 				CFP and YFP	15550931	Jalink K
+Metabolites	cAMP	cAMP	ICUEs	ICUEs	FRET-based biosensors 				eCFP and Citrine	15545605, 19603118, 18045878	Zhang J, Zhang J, Lefkowitz RJ
+Metabolites	cAMP	cAMP	Epac-camps	Epac-camps	FRET-based biosensors 				CFP and YFP	15231839	Lohse MJ
+Metabolites	cAMP	cAMP	PKA-camps	PKA-camps	FRET-based biosensors 				CFP and YFP	15231839	Lohse MJ
+Metabolites	cAMP	cAMP	HCN2-camps	HCN2-camps	FRET-based biosensors 				CFP and YFP	17038640	Engelhardt S
+Metabolites	cAMP	cAMP	(T)Epac(VV)	(T)Epac(VV)	FRET-based biosensors 				mTurquise and venus-Venus	21559477	Jalink K
+Regulated Proteolysis	Cell cycle progression	Cell cycle progression	Fucci	Fucci	Single FP-based extrinsic biosensors 					18267078	Miyawaki A
+Metabolites	cGMP	cGMP	FlincG	FlincG	Single FP-based extrinsic biosensors 					18165313	Dostmann WR
+Metabolites	cGMP	cGMP	Cygnets	Cygnets	FRET-based biosensors 			smooth muscle cells	eCFP and Citrine	15988053	Dostmann WR
+Metabolites	cGMP	cGMP	CGYs	CGYs	FRET-based biosensors 			CHO and HEK293 cells	eCFP and eYFP	11140757	Umezawa Y
+Metabolites	cGMP	cGMP	cGES sensors	cGES sensors	FRET-based biosensors 			HEK293 cells	CFP and YFP	16369548	Lohse MJ
+Metabolites	cGMP	cGMP	cGis	cGi sensors	FRET-based biosensors 			HEK293 cells	CFP and YFP	17516914	Koesling D
+Metabolites	cGMP	cGMP	Cygnus	Cygnus	FRET-based biosensors 			PC12 cells	mTagBFP and sREACh(dark)	20161796	Oka K
+Metabolites	citrate	citrate	CIT sensors	CIT sensors	FRET-based biosensors 					22164251	Zamboni N
+Ions	Cl-	Cl<sup>-</sup>	Clomeleon	Clomeleon	FRET-based biosensors 					15457207	van Aalten DM
+Ions	Cl-	Cl<sup>-</sup>	Cl-sensor	Cl-sensor	FRET-based biosensors 					18279971	Bregestovski P
+Ions	Cu+	Cu<sup>+</sup>	Ace1-FRET	Ace1-FRET	FRET-based biosensors 			Yeast cells		21180717	He C
+Ions	Cu+	Cu<sup>+</sup>	Mac1-FRET	Mac1-FRET	FRET-based biosensors 			Yeast cells		21180717	He C
+Ions	Cu+	Cu<sup>+</sup>	Amt1-FRET	Amt1-FRET	FRET-based biosensors 					20131768	He C
+Kinase activity	CyclinB-Cdk1	CyclinB-Cdk1	CyclinB-Cdk1 sensor	CyclinB-Cdk1 sensor	FRET-based biosensors 					20412769	Pines J
+Metabolites	diacylglycerol	diacylglycerol	Daglas	Daglas	FRET-based biosensors 					18685081	Matsuda M
+Metabolites	diacylglycerol	diacylglycerol	DAGR	DAGR	FRET-based biosensors 					16990811	Umezawa Y
+Metabolites	diacylglycerol	diacylglycerol	Digda	Digda	FRET-based biosensors 					12782683	Newton AC
+Kinase activity	epidermal growth factor receptor (EGFR)	epidermal growth factor receptor (EGFR)	EGFR reporter	EGFR reporter	FRET-based biosensors 			HELA and NIH 3T3	CFP and YFP	11752449	Tsien RY
+Kinase activity	epidermal growth factor receptor (EGFR)	epidermal growth factor receptor (EGFR)	ECaus	ECaus	FRET-based biosensors 				CFP and YFP	18510313	Umezawa Y
+Kinase activity	epidermal growth factor receptor (EGFR)	epidermal growth factor receptor (EGFR)	EGFR-ECFP/PTV-EYFP	EGFR-ECFP/PTV-EYFP	FRET-based biosensors 			COS-7	eCFP and eYFP	15215236	Bastiaens PI
+Kinase activity	epidermal growth factor receptor (EGFR)	epidermal growth factor receptor (EGFR)	FLAME	FLAME	FRET-based biosensors 			COS-7	eCFP and eYFP	15215236	Bastiaens PI
+Protein Activation and Conformation	ERK  conformation	ERK  conformation	Miu2	Miu2	FRET-based biosensors 					16418172	Matsuda M
+Protein Activation and Conformation	Estrogen receptor ligand binding domain conformation	Estrogen receptor ligand binding domain conformation	CEY	CEY	FRET-based biosensors 					15985367	Lannigan DA
+Kinase activity	Extracellular signal-regulated kinase (ERK) 	Extracellular signal-regulated kinase (ERK) 	Erkus	Erkus	FRET-based biosensors 			MCF-7 cells	CFP and YFP	17261026	Umezawa Y
+Kinase activity	Extracellular signal-regulated kinase (ERK) 	Extracellular signal-regulated kinase (ERK) 	EAS	EAS	FRET-based biosensors 				eCFP and eYFP	15998468	Alberola-Ila J
+Kinase activity	Extracellular signal-regulated kinase (ERK) 	Extracellular signal-regulated kinase (ERK) 	EKAR	EKAR	FRET-based biosensors 			HEK293 cells and neurons 	eGFP and mRFP1 or CFP and YFP	19033456	Svoboda K
+Kinase activity	Extracellular signal-regulated kinase (ERK) 	Extracellular signal-regulated kinase (ERK) 	Miu2	Miu2	FRET-based biosensors 			HELA	CFP and YFP	16418172	Matsuda M
+Protein Activation and Conformation	G protein activation	G protein activation	FP-Ga/FP-Gb(g)	FP-G&alpha;/FP-G&beta;(&gamma;)	FRET-based biosensors 					21619590, 14673086, 15866880, 16371464,16963443,11264536,18397999,12960402	Gadella TW Jr, Lohse MJ, Bünemann M, Gilman AG, Bünemann M, Devreotes P, Scarlata S, Simon MI
+Kinase activity	Glucokinase	Glucokinase	mCerulean-GCK-mVenus	mCerulean-GCK-mVenus	FRET-based biosensors 					21454584	Rizzo MA
+Metabolites	glucose	glucose	FLIPglu sensors	FLIPglu sensors	FRET-based biosensors 	ratiometric epifluorescence FRET microscopy	KD 600µM	Arabidopsis, Saccharomyces, HEK293T	eCFP and eYFP	16131659, 12649277, 18177733	Frommer WB, Frommer WB, Frommer WB 
+Metabolites	glucose	glucose	AcGFP1-GBPcys-mCherry 	AcGFP1-GBPcys-mCherry 	FRET-based biosensors 					20832277	Ye K
+Metabolites	glutamate	glutamate	FLIPE sensors	FLIPE sensors	FRET-based biosensors 					16131659, 15939876	Frommer WB, Frommer WB
+Metabolites	glutamate	glutamate	GluSnFR	GluSnFR	FRET-based biosensors 					18332427	Tsien RY
+Metabolites	glutamate	glutamate	FLIP-cpGltI210	FLIP-cpGltI210	FRET-based biosensors 					19827096	Ito T
+Metabolites	glutamine	glutamine	FRET glutamine reporter 	FRET glutamine reporter 	FRET-based biosensors 					20111724	Ludewig U
+Metabolites	glutamine	glutamine	FLIP-cpGlnH183	FLIP-cpGlnH183	FRET-based biosensors 					19827096	Ito T
+Ions	halide ions	halide ions	YFP-H148Q	YFP-H148Q	Single FP-based intrinsic biosensors					11423120	Verkman AS
+Ions	halide ions	halide ions	YFP-H148QI152L	YFP-H148QI152L	Single FP-based intrinsic biosensors					10692389	Verkham AS
+Ions	Hg2+	Hg<sup>2+</sup>	eGFP205C	eGFP205C	Single FP-based intrinsic biosensors					18305194	Sagermann M
+Ions	Hg2+	Hg<sup>2+</sup>	IFP/BV sensor	IFP/BV sensor	Single FP-based intrinsic biosensors					21323346	Tang Y
+Metabolites	histidine	histidine	FLIP-HisJ/cpHisJ194	FLIP-HisJ/cpHisJ194	FRET-based biosensors 					19827096	Ito T
+Kinase activity	Histone H3 phosphorylation	Histone H3 phosphorylation	H3 phosphorylation reporter	H3 phosphorylation reporter	FRET-based biosensors 					15170310	Ting AY
+Enzyme Activity (Non-Kinase)	histone H4 lysine acetylation	histone H4 lysine acetylation	Histac (K5, K7)	Histac (K5, K7)	FRET-based biosensors 					21513886	Yoshida M
+Enzyme Activity (Non-Kinase)	histone H4 lysine acetylation	histone H4 lysine acetylation	Histac-K12 (K12)	Histac-K12 (K12)	FRET-based biosensors 					21513886	Yoshida M
+Enzyme Activity (Non-Kinase)	histone lysine methylation	histone lysine methylation	K9 reporter	K9 reporter	FRET-based biosensors 					15137760	Ting AY
+Enzyme Activity (Non-Kinase)	histone lysine methylation	histone lysine methylation	K27 reporter	K27 reporter	FRET-based biosensors 					15137760	Ting AY
+Metabolites	inositol 1,4,5-trisphosphate	inositol 1,4,5-trisphosphate	LIBRA	LIBRA	FRET-based biosensors 					16754959	Mikoshiba K
+Metabolites	inositol 1,4,5-trisphosphate	inositol 1,4,5-trisphosphate	FIRE1-3	FIRE1-3	FRET-based biosensors 					16249182	Mignery GA
+Metabolites	inositol 1,4,5-trisphosphate	inositol 1,4,5-trisphosphate	IRIS-1	IRIS-1	FRET-based biosensors 					15272011	Tojyo Y
+Kinase activity	Insulin Receptor	Insulin Receptor	Phocus	Phocus	FRET-based biosensors 					11875431	Umezawa Y
+Kinase activity	Insulin Receptor	Insulin Receptor	Phocus-2pp	Phocus-2pp	FRET-based biosensors 					15003608	Umezawa Y
+Protein Activation and Conformation	Insulin receptor activation	Insulin receptor activation	Sinphos	Sinphos	Single FP-based extrinsic biosensors 					15481965	Umezawa Y
+Metabolites	leucine	leucine	FLIP-LivJ/cpLivJ261	FLIP-LivJ/cpLivJ261	FRET-based biosensors 					19827096	Ito T
+Protein Activation and Conformation	M(1) muscarinic receptor (M(1)R) activation	M(1) muscarinic receptor (M(1)R) activation	M1R-YFP-CFP	M<sub>1</sub>R-YFP-CFP	FRET-based biosensors 					19332618	Hille B
+Metabolites	maltose	maltose	FLIPmal sensors	FLIPmal sensors	FRET-based biosensors 					12649277	Frommer WB
+Protein Activation and Conformation	MAP kinase-activated protein kinase 2 conformation	MAP kinase-activated protein kinase 2 conformation	GMB	GMB	FRET-based biosensors 					11463748	Gaestel M
+Mechanical Force	Mechanical strain	Mechanical strain	VinTS	VinTS	FRET-based biosensors 					20613844	Schwartz MA
+Mechanical Force	Mechanical strain	Mechanical strain	stFRET	stFRET	FRET-based biosensors 					18971336	Uyeda TQ
+Mechanical Force	Mechanical strain	Mechanical strain	PriSSM (PRIM-based)	PriSSM (PRIM-based)	FRET-based biosensors 					21172803	Sachs F
+Mechanical Force	Mechanical strain	Mechanical strain	sstFRET	sstFRET	FRET-based biosensors 					18479457	Sachs F
+Kinase activity	MK2	MK2	GFP-MK2-BFP	GFP-MK2-BFP	FRET-based biosensors 					11463748	Gaestel M
+Neurotrophic Factor	Neurotrophic factor	Neurotrophic factor	BBD-ECat/ECaus (cell-based)	BBD-ECat/ECaus (cell-based)	FRET-based biosensors 					18510313	Umezawa Y
+Metabolites	NO	NO	FRET-MT	FRET-MT	FRET-based biosensors 					10618443	Levitan ES
+Enzyme Activity (Non-Kinase)	O-GlcNAc transferase	O-GlcNAc transferase	O-GlcNAc sensor	O-GlcNAc sensor	FRET-based biosensors 					17105262	Mahal LK
+Ions	pH	pH	ECFP	ECFP	Single FP-based intrinsic biosensors					9618493, 9512054	Tsien RY, Verkman AS
+Ions	pH	pH	EYFP	EYFP	Single FP-based intrinsic biosensors					9618493, 9512054	Tsien RY, Verkman AS
+Ions	pH	pH	E2GFP	E<sup>2</sup>GFP	Single FP-based intrinsic biosensors					16603505	Beltram F
+Ions	pH	pH	deGFP1-4	deGFP1-4	Single FP-based intrinsic biosensors					12501176	Remington SJ
+Ions	pH	pH	pHluorins	pHluorins	Single FP-based intrinsic biosensors					9671304	Rothman JE
+Ions	pH	pH	GFpH	GFpH	Single FP-based intrinsic biosensors					11716495	Miyazaki S
+Ions	pH	pH	YFpH	YFpH	Single FP-based intrinsic biosensors					11716495	Miyazaki S
+Ions	pH	pH	mtAlpHi	mtAlpHi	Single FP-based intrinsic biosensors					14701849	Pozzan T
+Ions	pH	pH	pHRed	pHRed	Single FP-based intrinsic biosensors					21631110	Yellen G
+Ions	pH	pH	CFP-YFP tandem	CFP-YFP tandem	FRET-based biosensors 					15173182	Schaefer M
+Metabolites	Phosphatidic acid	Phosphatidic acid	Pii	Pii	FRET-based biosensors 					20826779	Kiyokawa E
+Metabolites	Phosphatidylserine	Phosphatidylserine	GFP-Lact-C2	GFP-Lact-C2	Translocation-based biosensors					18187657	Grinstein S
+Protein Activation and Conformation	PKB conformation	PKB conformation	GFP-PKB-RFP	GFP-PKB-RFP	FRET-based biosensors 					17407381	Larijani B
+Ions	PO42-	PO<sub>4</sub><sup>2-</sup>	FLIPPi	FLIPPi	FRET-based biosensors 					17034793	Frommer WB
+Kinase activity	Protein kinase A	Protein kinase A	ART	ART	FRET-based biosensors 			COS-7	BFP and RFP	10700148	Hagiwara, M
+Kinase activity	Protein kinase A	Protein kinase A	AKAR1-34	AKAR1-34	FRET-based biosensors 			HEK293	Various	16895723, 20838685	Tsien RY, Zhang J, Zhang J
+Kinase activity	Protein kinase A	Protein kinase A	CRY-AKAR	CRY-AKAR	FRET-based biosensors 			HELA cells	Cerulean and mVenus and mCherry	18058965	Zhang J
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	BKAR	BKAR	FRET-based biosensors 			NIH 3T3	mCFP and mYFP	15583002	Newton AC
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	Aktus	Aktus	FRET-based biosensors 			CHO cells	CFP and YFP	12773546	Umezawa Y
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	Akind	Akind	FRET-based biosensors 			COS-7	CFP and YFP	17052213	Matsuda M
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	GFP-PKB-RFP	GFP-PKB-RFP	FRET-based biosensors 			NIH 3T3	GFP and RFP	17407381	Larijani B
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	ReAktion	ReAktion	FRET-based biosensors 			NIH 3T3	CFP and YFP	17928291	Zhang J
+Kinase activity	Protein kinase B/Akt	Protein kinase B/Akt	AktAR	AktAR	FRET-based biosensors 			NIH 3T3	Cerulean and cpV E172	18701703	Zhang J
+Kinase activity	Protein kinase C	Protein kinase C	CKAR; KCP-1	CKAR; KCP-1	FRET-based biosensors 					15382901, 12782683	Schultz C, Newton AC
+Kinase activity	Protein kinase D	Protein kinase D	DKAR	DKAR	FRET-based biosensors 					17189263	Newton AC
+Enzyme Activity (Non-Kinase)	protein phosphatase (calcineurin)	protein phosphatase (calcineurin)	CaNAR1	CaNAR1	FRET-based biosensors 					18493642	Zhang J
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-ARNO	GFP-ARNO	Translocation-based biosensors					10913124	Czech MP
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	confocal microscopy		PC12 cell line	GFP	9742223, 10913124	Cullen PJ, Czech MP
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-Cytohesin-1	GFP-Cytohesin-1	Translocation-based biosensors					10913124	Czech MP
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors					11802782, 15457207	Alessi DR, van Aalten DM
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors					11802782	Alessi DR
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors					15103325	Lemmon MA
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHBtk	GFP-PHBtk	Translocation-based biosensors					10196179	Balla T
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-PHCRAC	GFP-PH<sup>CRAC</sup>	Translocation-based biosensors					13678580	Snyder SH
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	GFP-Ent3p	GFP-Ent3p	Translocation-based biosensors					12967568	Letourneur F
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	CAY	CAY	FRET-based biosensors 			Swiss 3T3 fibroblasts		14967034	Allen PG
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	Pippi-PI(3,4,5)P3	Pippi-PI(3,4,5)P<sub>3</sub>	FRET-based biosensors 			MDCK		18685081	Matsuda M
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	Fllip	Fllip	FRET-based biosensors 			CHO cells		14528311	Umezawa Y
+Metabolites	PtdIns(3,4,5)P3	PtdIns(3,4,5)P<sub>3</sub>	Pippi-PI(3,4,5)P3	Pippi-PI(3,4,5)P<sub>3</sub>	FRET-based biosensors 			COS7		17052213	Matsuda M
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	confocal microscopy		PC12 cell line	GFP	9742223	Cullen PJ
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors					11802782, 15457207	Alessi DR, van Aalten DM
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors					11802782	Alessi DR
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors					15103325	Lemmon MA
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-PHBtk	GFP-PHBtk	Translocation-based biosensors					10196179	Balla T
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	GFP-Ent3p	GFP-Ent3p	Translocation-based biosensors					12967568	Letourneur F
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	CAY	CAY	FRET-based biosensors 			Swiss 3T3 fibroblasts		14967034	Allen PG
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	Pippi-PI(3,4)P2	Pippi-PI(3,4)P<sub>2</sub>	FRET-based biosensors 			MDCK		18685081	Matsuda M
+Metabolites	PtdIns(3,4)P2	PtdIns(3,4)P<sub>2</sub>	Pippi-PI(3,4)P2	Pippi-PI(3,4)P<sub>2</sub>	FRET-based biosensors 			COS7		17052213	Matsuda M
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-PHGRP1	GFP-PH<sup>GRP1</sup>	Translocation-based biosensors	confocal microscopy		PC12 cell line	GFP	9742223	Cullen PJ
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-PHPDK1	GFP-PH<sup>PDK1</sup>	Translocation-based biosensors					11802782	Alessi DR
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	YFP-PHTAPP1	YFP-PH<sup>TAPP1</sup>	Translocation-based biosensors					11802782	Alessi DR
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-Svp1p	GFP-Svp1p	Translocation-based biosensors					15103325	Lemmon MA
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-PHBtk	GFP-PHBtk	Translocation-based biosensors					10196179	Balla T
+Metabolites	PtdIns(3,5)P2	PtdIns(3,5)P<sub>2</sub>	GFP-Ent3p	GFP-Ent3p	Translocation-based biosensors					12967568	Letourneur F
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-ARNO	GFP-ARNO	Translocation-based biosensors					10913124	Czech MP
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-Cytohesin-1	GFP-Cytohesin-1	Translocation-based biosensors					10913124	Czech MP
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-PHOSH2	GFP-PH<sup>OSH2</sup>	Translocation-based biosensors	confocal microscopy		HeLa and Yeast	eGFP	15023338	Lemmon MA
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	PHOSBP	PH<sup>OSBP</sup>	Translocation-based biosensors	confocal microscopy		COS-7 cells	GFP, mRFP	15635101, 9651677	Balla T, Munro S
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	GFP-PHFAPP	GFP-PH<sup>FAPP</sup>	Translocation-based biosensors	confocal microscopy		HeLa and Yeast	eGFP	15023338	Lemmon MA
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	CAY	CAY	FRET-based biosensors 			Swiss 3T3 fibroblasts		14967034	Allen PG
+Metabolites	PtdIns(4,5)P2	PtdIns(4,5)P<sub>2</sub>	Pippi-PI(4,5)P2	Pippi-PI(4,5)P<sub>2</sub>	FRET-based biosensors 			MDCK		18685081	Matsuda M
+Metabolites	PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	GFP-PHPLC-	GFP-PH<sub>PLC-</sub>	Translocation-based biosensors					12900176	Nash MS
+Metabolites	PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	CYPHR (FRET: PLC activity)	CYPHR (FRET: PLC activity)	Translocation-based biosensors					11375483	Shapiro L
+Metabolites	PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	FP-Tubby	FP-Tubby	Translocation-based biosensors					9512420	Meyer T
+Metabolites	PtdIns(4,5)P2:Ins(1,4,5) P3 dynamics	PtdIns(4,5)P<sub>2</sub>:Ins(1,4,5) P3 dynamics	FP-PHPLCd1(FRET)	FP-PH<sup>PLC<sub>&delta;</sub>1</sup>(FRET)	Translocation-based biosensors					12419189	Meyer T
+Metabolites	PtdIns(4)P	PtdIns(4)P	Pippi-PI(4)P	Pippi-PI(4)P	FRET-based biosensors 			MDCK		18685081	Matsuda M
+Metabolites	PtdIns3P	PtdIns3P	GFP-FYVEEEA1	GFP-FYVE<sup>EEA1</sup>	Translocation-based biosensors					9702203	Emr SD
+Metabolites	PtdIns3P	PtdIns3P	GFP–p40phox iPX	GFP–p40<sup>phox</sup> iPX	Translocation-based biosensors					11433301	Stephens LR
+Metabolites	PtdIns4P	PtdIns4P	GFP-PHOSH2	GFP-PH<sup>OSH2</sup>	Translocation-based biosensors	confocal microscopy				15271978	Levine TP
+Metabolites	PtdIns4P	PtdIns4P	PHOSBP	PH<sup>OSBP</sup>	Translocation-based biosensors	confocal microscopy		COS-7 cells	GFP, mRFP	15635101, 9651677	Balla T, Munro S
+Metabolites	PtdIns4P	PtdIns4P	GFP-PHFAPP	GFP-PH<sup>FAPP</sup>	Translocation-based biosensors	confocal microscopy		HEK 293 cells	GFP	15635101, 15107860	Balla T, De Matteis MA
+Redox and Voltage	redox	redox	roGFPs	roGFPs	Single FP-based intrinsic biosensors					16322566, 14985369, 18652491, 19026441	Remington SJ, Tsien RY, Remington SJ, Papa FR
+Redox and Voltage	redox	redox	rxYFP149202	rxYFP<sup>149</sup><sub>202</sub>	Single FP-based intrinsic biosensors					11689426	Winther JR
+Redox and Voltage	redox	redox	CY-RL5 and CY-RL7	CY-RL5 and CY-RL7	FRET-based biosensors 				eCFP and eYFP, mCyPet and mYPet	18222979, 21606117	Gaskins HR, Gaskins HR
+Redox and Voltage	redox	redox	HSP-FRET	HSP-FRET	FRET-based biosensors 					16857720	Schumacker PT
+Redox and Voltage	redox	redox	Redoxfluor	Redoxfluor	FRET-based biosensors 			CHO	Cerulean and Citrine	20498274	Sakai Y
+Redox and Voltage	redox (H2O2)	redox (H<sub>2</sub>O<sub>2</sub>)	HyPer	HyPer	Single FP-based extrinsic biosensors 					16554833	Lukyanov S
+Redox and Voltage	redox (H2O2)	redox (H<sub>2</sub>O<sub>2</sub>)	Hyper2	Hyper2	Single FP-based extrinsic biosensors 					20692175	Belousov VV
+Redox and Voltage	redox (H2O2)	redox (H<sub>2</sub>O<sub>2</sub>)	mt-cpYFP	mt-cpYFP	Single FP-based extrinsic biosensors 					18662543	Cheng H
+Redox and Voltage	redox (superoxide)	redox (superoxide)	cpYFP	cpYFP	Single FP-based intrinsic biosensors					18662543	Cheng H
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-Ras	Raichu-Ras	FRET-based biosensors 				CFP and YFP	11429608, 12860967	Matsuda, M, Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-Rap1	Raichu-Rap1	FRET-based biosensors 				CFP and YFP	11429608, 12860967	Matsuda, M, Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-Rac	Raichu-Rac	FRET-based biosensors 				CFP and YFP	12192056, 12860967	Matsuda, M, Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-Cdc42	Raichu-Cdc42	FRET-based biosensors 				CFP and YFP	12192056, 12860967	Matsuda, M, Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-CRIB	Raichu-CRIB	FRET-based biosensors 				CFP and YFP	12192056	Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-RhoA	Raichu-RhoA	FRET-based biosensors 				CFP and YFP	12860967	Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-RBD	Raichu-RBD	FRET-based biosensors 				CFP and YFP	12860967	Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	Raichu-RalA	Raichu-RalA	FRET-based biosensors 				CFP and YFP	17052213	Matsuda, M
+Protein Activation and Conformation	Rho family GTPase activation	Rho family GTPase activation	RhoA biosensor commentary	RhoA biosensor commentary	FRET-based biosensors 				CFP and YFP	15020671, 16547516	Hahn KM, Hahn KM
+Metabolites	ribose	ribose	FLIPrib sensors	FLIPrib sensors	FRET-based biosensors 					14550551	Lalonde S
+Kinase activity	Src	Src	Src reporter	Src reporter	FRET-based biosensors 					17284441	Umezawa Y
+Kinase activity	Src	Src	Srcus	Srcus	FRET-based biosensors 					15846350	Chien S
+Metabolites	sucrose	sucrose	FLIPsuc sensors	FLIPsuc sensors	FRET-based biosensors 					16912038	Frommer WB
+Metabolites	tryptophan	tryptophan	FLIPW sensors	FLIPW sensors	FRET-based biosensors 					17896864	Frommer WB
+Enzyme Activity (Non-Kinase)	various proteases	various proteases	donor FP-substrate-acceptor FP	donor FP-substrate-acceptor FP	FRET-based biosensors 					9518501	Luo Y
+Redox and Voltage	voltage	voltage	FlaSh	FlaSh	Single FP-based extrinsic biosensors 					12496128, 12695102, 9354320	Isacoff EY, Sakai R, Isacoff EY
+Redox and Voltage	voltage	voltage	Flare	Flare	Single FP-based extrinsic biosensors 					12695102, 9354320	Sakai R, Isacoff EY
+Redox and Voltage	voltage	voltage	SPARC	SPARC	Single FP-based extrinsic biosensors 					11751337, 12695102, 9354320	Pieribone VA, Sakai R, Isacoff EY
+Redox and Voltage	voltage	voltage	VSFP-cpEGFP 	VSFP-cpEGFP 	Single FP-based extrinsic biosensors 					12695102, 9354320	Sakai R, Isacoff EY
+Redox and Voltage	voltage	voltage	VSFPs	VSFPs	FRET-based biosensors 					11454036, 20622860, 17487283, 18575613	Knöpfel T, Knöpfel T, Knöpfel T, Knöpfel T
+Redox and Voltage	voltage	voltage	Mermaid	Mermaid	FRET-based biosensors 					18622396	Miyawaki A
+Redox and Voltage	voltage	voltage	FlaSh-CFP/YFP	FlaSh-CFP/YFP	FRET-based biosensors 					12496128	Isacoff EY
+Protein Activation and Conformation	Wiskott -Aldrich syndrome protein (WASP) conformation	Wiskott -Aldrich syndrome protein (WASP) conformation	Cdc42-GEF sensors	Cdc42-GEF sensors	FRET-based biosensors 					12680752	Rosen MK
+Ions	Zn2+	Zn<sup>2+</sup>	CLY9-2His	CLY9-2His	FRET-based biosensors 					18502789	Merkx M
+Ions	Zn2+	Zn<sup>2+</sup>	CALWY	CALWY	FRET-based biosensors 					17335212	Merkx M
+Ions	Zn2+	Zn<sup>2+</sup>	eCALWYs	eCALWYs	FRET-based biosensors 			Pancreatic beta-cells		21613223, 19718032	Rutter GA, Merkx M
+Ions	Zn2+	Zn<sup>2+</sup>	Cys2His2	Cys2His2	FRET-based biosensors 			Neurons		19363034	Palmer AE
+Redox and Voltage	voltage	voltage	PROPS	PROPS	Single FP-based intrinsic biosensors			E coli 	Proteorhodopsin	21764748	Cohen AE
+Ions	Zn2+	Zn<sup>2+</sup>	ZapCY	ZapCY	FRET-based biosensors 			HELA cells (Cytosol, Golgi, ER)		21502528	Palmer AE
+Ions	Cd2+	Cd<sup>2+</sup>	Cd-FRET-2	Cd-FRET-2	FRET-based biosensors 					21986860	Merkx M
+Ions	Zn2+	Zn<sup>2+</sup>	ZinCh	ZinCh	FRET-based biosensors 					17936298	Merkx M
